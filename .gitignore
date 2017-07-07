@@ -1,6 +1,10 @@
-# Compiled files
 *.tfstate
 *.tfstate.backup
-
-# Module directory
 .terraform/
+.terraform.tfstate.lock.info
+terraform.tfvars
+
+.idea/
+kops/
+data/
+kubernetes.tf
