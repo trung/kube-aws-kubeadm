@@ -34,6 +34,7 @@ sudo apt-get install -y kubeadm kubelet
 * Delete KUBELET_NETWORKING_ARGS `/etc/systemd/system/kubelet.service.d/10-kubeadm.conf`
 * `sudo systemctl daemon-reload`
 * `kubectl apply` for https://github.com/kubernetes/kubeadm/issues/335#issuecomment-312962574
+* `kubectl create -f calico.yaml`
 
 ## Node
 * `sudo hostname $(hostname -f)`
